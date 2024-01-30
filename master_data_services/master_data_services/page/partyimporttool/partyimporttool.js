@@ -41,7 +41,6 @@ frappe.pages['partyimporttool'].on_page_load = function (wrapper) {
             }
 
             var result = await getData(companyName, option);
-            // option = "company"
 
             if (option === "company") {
                 displayCompanyDetails(result, resultContainer);
